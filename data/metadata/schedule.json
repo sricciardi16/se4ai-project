@@ -1,0 +1,12 @@
+{
+  "github_repo": "dbader/schedule",
+  "inferred_version": "1.2",
+  "exact_tag": "1.2.2",
+  "commit_sha": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+  "zipball_url": "https://api.github.com/repos/dbader/schedule/zipball/refs/tags/1.2.2",
+  "import_name": "schedule",
+  "test_dependencies": [
+    "freezegun"
+  ],
+  "import_name_gen": "task_scheduler"
+}

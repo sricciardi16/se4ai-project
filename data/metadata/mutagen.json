@@ -1,0 +1,10 @@
+{
+  "github_repo": "quodlibet/mutagen",
+  "inferred_version": "1.45",
+  "exact_tag": "release-1.45.1",
+  "commit_sha": "07108702b18d373d883ee9a36d2dd1066e621a0c",
+  "zipball_url": "https://api.github.com/repos/quodlibet/mutagen/zipball/refs/tags/release-1.45.1",
+  "import_name": "mutagen",
+  "test_dependencies": [],
+  "import_name_gen": "audio_metadata"
+}

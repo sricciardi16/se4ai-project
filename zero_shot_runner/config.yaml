@@ -1,0 +1,21 @@
+configurations:
+  behavior.zero_shot_coder:
+    system_instruction: system_prompt.md
+  archive.markdown.zero_shot_runs:
+    type: markdown
+    user_header: '### Specification :memo:'
+    ai_header: '### AI :robot:'
+    directory_path: ./chase_logs
+    to_present: false
+profiles:
+  zero_shot_generation:
+    inference: inference.deterministic-relaxed
+    behavior: behavior.zero_shot_coder
+    provider: provider.vertex_openai.deepseek-r1-0528
+    constraints: constraints.standard
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    archive: archive.markdown.zero_shot_runs
+    response_sanitization:
+    - middleware.think_tag_remover
+    max_history_length: 0

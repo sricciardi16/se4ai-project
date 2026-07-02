@@ -1,0 +1,13 @@
+{
+  "github_repo": "pudo/dataset",
+  "inferred_version": "1.6",
+  "exact_tag": "1.6.2",
+  "commit_sha": "5c2dc8d3af1e0af0290dcd7ae2cae92589f305a1",
+  "zipball_url": "https://api.github.com/repos/pudo/dataset/zipball/refs/tags/1.6.2",
+  "import_name": "dataset",
+  "test_dependencies": [
+    "sqlalchemy",
+    "psycopg2-binary"
+  ],
+  "import_name_gen": "flexidb"
+}

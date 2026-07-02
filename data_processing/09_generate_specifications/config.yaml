@@ -1,0 +1,22 @@
+configurations:
+  behavior.void:
+    system_instruction: ""
+
+  archive.markdown.experiments:
+    type: "markdown"
+    user_header: "### Silvestro :eyes:"
+    ai_header: "### Chase :seedling:"
+    to_present: false
+
+  archive.markdown.experiments.01_generate_specifications:
+    directory_path: "./experiments/01_specifications"
+
+profiles:
+  01_generate_specifications:
+    inference: "inference.deterministic-relaxed.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.01_generate_specifications"

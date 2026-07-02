@@ -1,0 +1,104 @@
+configurations:
+
+  behavior.void:
+    system_instruction: ""
+
+  archive.markdown.experiments:
+    type: "markdown"
+    user_header: "### Silvestro :eyes:"
+    ai_header: "### Chase :seedling:"
+    to_present: false
+
+  archive.markdown.experiments.03_functional_test_analysis:
+    directory_path: "./experiments/03_functional_test_analysis"
+
+
+  archive.markdown.experiments.04_behavioral_extraction:
+    directory_path: "./experiments/04_behavioral_extraction"
+
+
+  archive.markdown.experiments.04b_robustness_extraction:
+    directory_path: "./experiments/04b_robustness_extraction"
+
+
+  # Add to archives:
+  archive.markdown.experiments.05_functional_json_extraction:
+    directory_path: "./experiments/05_functional_json_extraction"
+
+  archive.markdown.experiments.05b_robustness_json_extraction:
+    directory_path: "./experiments/05b_robustness_json_extraction"
+
+
+  middleware.test_spec_json_validator:
+    type: "test_spec_json_validator"
+
+profiles:
+
+  03_functional_test_analysis:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.03_functional_test_analysis"
+
+
+
+  04_behavioral_extraction:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.04_behavioral_extraction"
+
+
+
+  04b_robustness_extraction:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.04b_robustness_extraction"
+
+
+
+
+  05_functional_json_extraction:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.05_functional_json_extraction"
+    response_sanitization:
+      - "middleware.json_fence_enforcer"
+    post_response_normalization:
+      - "middleware.json_code_block_tagger"
+      - "middleware.json_escape_repair"
+      - "middleware.test_spec_json_validator"
+    presentation:
+      - "middleware.json_fence_stripper"
+
+  05b_robustness_json_extraction:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.05b_robustness_json_extraction"
+    response_sanitization:
+      - "middleware.json_fence_enforcer"
+    normalization:
+      - "middleware.json_code_block_tagger"
+    post_response_normalization:
+      - "middleware.json_escape_repair"
+      - "middleware.test_spec_json_validator"
+    presentation:
+      - "middleware.json_fence_stripper"

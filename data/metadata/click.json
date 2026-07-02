@@ -1,0 +1,10 @@
+{
+  "github_repo": "pallets/click",
+  "inferred_version": "8.0",
+  "exact_tag": "8.0.4",
+  "commit_sha": "bf1a6d4956cbbbfd0a6f4dd6310c8110cf89f7fe",
+  "zipball_url": "https://api.github.com/repos/pallets/click/zipball/refs/tags/8.0.4",
+  "import_name": "click",
+  "test_dependencies": [],
+  "import_name_gen": "cmd_constructor"
+}

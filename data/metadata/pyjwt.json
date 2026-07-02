@@ -1,0 +1,12 @@
+{
+  "github_repo": "jpadilla/pyjwt",
+  "inferred_version": "2.4",
+  "exact_tag": "2.4.0",
+  "commit_sha": "83ff831a4d11190e3a0bed781da43f8d84352653",
+  "zipball_url": "https://api.github.com/repos/jpadilla/pyjwt/zipball/refs/tags/2.4.0",
+  "import_name": "jwt",
+  "test_dependencies": [
+    "cryptography"
+  ],
+  "import_name_gen": "secure_signet"
+}

@@ -1,0 +1,10 @@
+{
+  "github_repo": "astanin/python-tabulate",
+  "inferred_version": "0.9",
+  "exact_tag": "v0.9.0",
+  "commit_sha": "bf58e37e6b35e3cc9a0bd740f752abfd32b6e6f8",
+  "zipball_url": "https://api.github.com/repos/astanin/python-tabulate/zipball/refs/tags/v0.9.0",
+  "import_name": "tabulate",
+  "test_dependencies": [],
+  "import_name_gen": "tabular_formatter"
+}

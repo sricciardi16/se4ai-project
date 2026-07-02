@@ -1,0 +1,173 @@
+configurations:
+  behavior.task_splitter:
+    system_instruction: task_splitter.md
+  behavior.json_converter:
+    system_instruction: json_converter.md
+  behavior.coder:
+    system_instruction: coder.md
+  behavior.architect:
+    system_instruction: architect.md
+  behavior.ops:
+    system_instruction: ops.md
+  behavior.summarizer:
+    system_instruction: summarizer.md
+  behavior.scout:
+    system_instruction: scout.md
+  behavior.reader:
+    system_instruction: reader.md
+  archive.markdown.experiments:
+    type: markdown
+    to_present: false
+  archive.markdown.experiments.task_splitter:
+    directory_path: ./experiments/task_splitter
+    user_header: '### System :robot:'
+    ai_header: '### Task Splitter :dart:'
+  archive.markdown.experiments.json_converter:
+    directory_path: ./experiments/json_converter
+    user_header: '### System :robot:'
+    ai_header: '### JSON Converter :package:'
+  archive.markdown.experiments.coder:
+    directory_path: ./experiments/coder
+    user_header: '### System :robot:'
+    ai_header: '### Coder :coffee:'
+  archive.markdown.experiments.architect:
+    directory_path: ./experiments/architect
+    user_header: '### System :robot:'
+    ai_header: '### Architect :bulb:'
+  archive.markdown.experiments.ops:
+    directory_path: ./experiments/ops
+    user_header: '### System :robot:'
+    ai_header: '### Ops :wrench:'
+  archive.markdown.experiments.summarizer:
+    directory_path: ./experiments/summarizer
+    user_header: '### System :robot:'
+    ai_header: '### Summarizer :memo:'
+  archive.markdown.experiments.scout:
+    directory_path: ./experiments/scout
+    user_header: '### System :robot:'
+    ai_header: '### Scout :eyes:'
+  archive.markdown.experiments.reader:
+    directory_path: ./experiments/reader
+    user_header: '### System :robot:'
+    ai_header: '### Reader :scroll:'
+  middleware.architect_spec_isolator:
+    type: architect_spec_isolator
+  middleware.reader_findings_isolator:
+    type: reader_findings_isolator
+  middleware.scout_plan_isolator:
+    type: scout_plan_isolator
+  middleware.source_code_isolator:
+    type: source_code_isolator
+  middleware.summary_isolator:
+    type: summary_isolator
+  middleware.task_list_isolator:
+    type: task_list_isolator
+profiles:
+  task_splitter:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-pro-preview
+    constraints: constraints.low
+    behavior: behavior.task_splitter
+    archive: archive.markdown.experiments.task_splitter
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    presentation:
+    - middleware.task_list_isolator
+    max_history_length: 0
+  json_converter:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-flash-lite
+    constraints: constraints.standard
+    behavior: behavior.json_converter
+    archive: archive.markdown.experiments.json_converter
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    - middleware.json_fence_enforcer
+    post_response_normalization:
+    - middleware.json_code_block_tagger
+    - middleware.json_escape_repair
+    presentation:
+    - middleware.json_fence_stripper
+    max_history_length: 0
+  coder:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-pro-preview
+    constraints: constraints.low
+    behavior: behavior.coder
+    archive: archive.markdown.experiments.coder
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    presentation:
+    - middleware.source_code_isolator
+    max_history_length: 0
+  architect:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-pro-preview
+    constraints: constraints.low
+    behavior: behavior.architect
+    archive: archive.markdown.experiments.architect
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    presentation:
+    - middleware.architect_spec_isolator
+    max_history_length: 0
+  ops:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-pro-preview
+    constraints: constraints.low
+    behavior: behavior.ops
+    archive: archive.markdown.experiments.ops
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    presentation:
+    - middleware.source_code_isolator
+    max_history_length: 0
+  summarizer:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-pro-preview
+    constraints: constraints.low
+    behavior: behavior.summarizer
+    archive: archive.markdown.experiments.summarizer
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    presentation:
+    - middleware.summary_isolator
+    max_history_length: 0
+  scout:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-pro-preview
+    constraints: constraints.low
+    behavior: behavior.scout
+    archive: archive.markdown.experiments.scout
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    presentation:
+    - middleware.scout_plan_isolator
+    max_history_length: 0
+  reader:
+    inference: inference.deterministic-relaxed.gemini_3_high_think
+    provider: provider.gemini.vertexse4ai.3-1-pro-preview
+    constraints: constraints.low
+    behavior: behavior.reader
+    archive: archive.markdown.experiments.reader
+    input_source: io.input.variable
+    output_sink: io.output.variable
+    response_sanitization:
+    - middleware.think_tag_remover
+    presentation:
+    - middleware.reader_findings_isolator
+    max_history_length: 0

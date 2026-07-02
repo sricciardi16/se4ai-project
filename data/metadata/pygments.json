@@ -1,0 +1,10 @@
+{
+  "github_repo": "pygments/pygments",
+  "inferred_version": "2.15",
+  "exact_tag": "2.15.1",
+  "commit_sha": "04a75bd5a75bfe27f0b582dd83c85e62f9475581",
+  "zipball_url": "https://api.github.com/repos/pygments/pygments/zipball/refs/tags/2.15.1",
+  "import_name": "pygments",
+  "test_dependencies": [],
+  "import_name_gen": "code_styler"
+}

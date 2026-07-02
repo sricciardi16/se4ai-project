@@ -1,0 +1,13 @@
+{
+  "github_repo": "fastapi/sqlmodel",
+  "inferred_version": "0.0",
+  "exact_tag": "0.0.38",
+  "commit_sha": "de0ecdf63e9eae5da67f7ffc8d73577a326e30b9",
+  "zipball_url": "https://api.github.com/repos/fastapi/sqlmodel/zipball/refs/tags/0.0.38",
+  "import_name": "sqlmodel",
+  "test_dependencies": [
+    "pydantic",
+    "sqlalchemy"
+  ],
+  "import_name_gen": "typed_orm"
+}

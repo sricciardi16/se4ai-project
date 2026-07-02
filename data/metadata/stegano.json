@@ -1,0 +1,12 @@
+{
+  "github_repo": "cedricbonhomme/Stegano",
+  "inferred_version": "0.11",
+  "exact_tag": "v0.11.5",
+  "commit_sha": "2e8b0fdec9d3def7dadb0d253fe22c3bad87dec3",
+  "zipball_url": "https://api.github.com/repos/cedricbonhomme/Stegano/zipball/refs/tags/v0.11.5",
+  "import_name": "stegano",
+  "test_dependencies": [
+    "Pillow"
+  ],
+  "import_name_gen": "image_message_embedder"
+}

@@ -1,0 +1,912 @@
+{
+  "agentic": {
+    "gemini": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "stegano": {
+        "category": "testable",
+        "success_rate": 95.24
+      },
+      "dataset": {
+        "category": "testable",
+        "success_rate": 81.25
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 90.91
+      },
+      "rich": {
+        "category": "testable",
+        "success_rate": 69.7
+      },
+      "click": {
+        "category": "testable",
+        "success_rate": 76.67
+      },
+      "dateutil": {
+        "category": "testable",
+        "success_rate": 97.73
+      },
+      "sqlmodel": {
+        "category": "testable",
+        "success_rate": 82.14
+      },
+      "astral": {
+        "category": "testable",
+        "success_rate": 71.43
+      },
+      "pendulum": {
+        "category": "testable",
+        "success_rate": 72.5
+      },
+      "tablib": {
+        "category": "testable",
+        "success_rate": 96.77
+      },
+      "pyjwt": {
+        "category": "testable",
+        "success_rate": 96.67
+      },
+      "tabulate": {
+        "category": "testable",
+        "success_rate": 78.12
+      },
+      "loguru": {
+        "category": "testable",
+        "success_rate": 91.43
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "pygments": {
+        "category": "testable",
+        "success_rate": 82.35
+      },
+      "tinydb": {
+        "category": "testable",
+        "success_rate": 74.29
+      },
+      "mutagen": {
+        "category": "testable",
+        "success_rate": 58.33
+      },
+      "schedule": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "folium": {
+        "category": "testable",
+        "success_rate": 87.1
+      },
+      "watchdog": {
+        "category": "testable",
+        "success_rate": 80.77
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 96.88
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 18.75
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 94.29
+      },
+      "pypdf": {
+        "category": "testable",
+        "success_rate": 88.89
+      },
+      "imageio": {
+        "category": "testable",
+        "success_rate": 96.43
+      },
+      "lifelines": {
+        "category": "testable",
+        "success_rate": 79.31
+      }
+    },
+    "gpt": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 96.67
+      },
+      "stegano": {
+        "category": "testable",
+        "success_rate": 95.24
+      },
+      "dataset": {
+        "category": "testable",
+        "success_rate": 90.62
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 84.85
+      },
+      "rich": {
+        "category": "testable",
+        "success_rate": 51.52
+      },
+      "click": {
+        "category": "testable",
+        "success_rate": 46.67
+      },
+      "dateutil": {
+        "category": "testable",
+        "success_rate": 77.27
+      },
+      "sqlmodel": {
+        "category": "testable",
+        "success_rate": 57.14
+      },
+      "astral": {
+        "category": "testable",
+        "success_rate": 76.19
+      },
+      "pendulum": {
+        "category": "testable",
+        "success_rate": 72.5
+      },
+      "tablib": {
+        "category": "testable",
+        "success_rate": 77.42
+      },
+      "pyjwt": {
+        "category": "testable",
+        "success_rate": 86.67
+      },
+      "tabulate": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "loguru": {
+        "category": "testable",
+        "success_rate": 62.86
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 90.62
+      },
+      "pygments": {
+        "category": "testable",
+        "success_rate": 76.47
+      },
+      "tinydb": {
+        "category": "testable",
+        "success_rate": 74.29
+      },
+      "mutagen": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "schedule": {
+        "category": "testable",
+        "success_rate": 93.18
+      },
+      "folium": {
+        "category": "testable",
+        "success_rate": 74.19
+      },
+      "watchdog": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 96.88
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 25.0
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 62.86
+      },
+      "pypdf": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "imageio": {
+        "category": "testable",
+        "success_rate": 71.43
+      },
+      "lifelines": {
+        "category": "testable",
+        "success_rate": 75.86
+      }
+    },
+    "qwen": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 13.33
+      },
+      "stegano": {
+        "category": "testable",
+        "success_rate": 80.95
+      },
+      "dataset": {
+        "category": "testable",
+        "success_rate": 65.62
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 90.91
+      },
+      "rich": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "click": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "dateutil": {
+        "category": "testable",
+        "success_rate": 54.55
+      },
+      "sqlmodel": {
+        "category": "testable",
+        "success_rate": 60.71
+      },
+      "astral": {
+        "category": "testable",
+        "success_rate": 95.24
+      },
+      "pendulum": {
+        "category": "testable",
+        "success_rate": 37.5
+      },
+      "tablib": {
+        "category": "testable",
+        "success_rate": 80.65
+      },
+      "pyjwt": {
+        "category": "testable",
+        "success_rate": 90.0
+      },
+      "tabulate": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "loguru": {
+        "category": "testable",
+        "success_rate": 40.0
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "pygments": {
+        "category": "testable",
+        "success_rate": 29.41
+      },
+      "tinydb": {
+        "category": "testable",
+        "success_rate": 25.71
+      },
+      "mutagen": {
+        "category": "testable",
+        "success_rate": 41.67
+      },
+      "schedule": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "folium": {
+        "category": "testable",
+        "success_rate": 35.48
+      },
+      "watchdog": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 90.62
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 18.75
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 37.14
+      },
+      "pypdf": {
+        "category": "testable",
+        "success_rate": 59.26
+      },
+      "imageio": {
+        "category": "testable",
+        "success_rate": 82.14
+      },
+      "lifelines": {
+        "category": "testable",
+        "success_rate": 82.76
+      }
+    },
+    "glm": {
+      "rich": {
+        "category": "testable",
+        "success_rate": 69.7
+      },
+      "click": {
+        "category": "testable",
+        "success_rate": 3.33
+      },
+      "astral": {
+        "category": "testable",
+        "success_rate": 90.48
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 96.88
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 56.25
+      },
+      "pypdf": {
+        "category": "testable",
+        "success_rate": 70.37
+      }
+    }
+  },
+  "zero_shot": {
+    "gemini": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "stegano": {
+        "category": "testable",
+        "success_rate": 95.24
+      },
+      "dataset": {
+        "category": "testable",
+        "success_rate": 96.88
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 96.97
+      },
+      "rich": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "click": {
+        "category": "testable",
+        "success_rate": 70.0
+      },
+      "dateutil": {
+        "category": "testable",
+        "success_rate": 93.18
+      },
+      "sqlmodel": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "astral": {
+        "category": "testable",
+        "success_rate": 76.19
+      },
+      "pendulum": {
+        "category": "testable",
+        "success_rate": 82.5
+      },
+      "tablib": {
+        "category": "testable",
+        "success_rate": 96.77
+      },
+      "pyjwt": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "tabulate": {
+        "category": "testable",
+        "success_rate": 78.12
+      },
+      "loguru": {
+        "category": "testable",
+        "success_rate": 62.86
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "pygments": {
+        "category": "testable",
+        "success_rate": 76.47
+      },
+      "tinydb": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "mutagen": {
+        "category": "testable",
+        "success_rate": 79.17
+      },
+      "schedule": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "folium": {
+        "category": "testable",
+        "success_rate": 96.77
+      },
+      "watchdog": {
+        "category": "testable",
+        "success_rate": 76.92
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 90.62
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 65.62
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "pypdf": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "imageio": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "lifelines": {
+        "category": "testable",
+        "success_rate": 86.21
+      }
+    },
+    "gpt": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 73.33
+      },
+      "stegano": {
+        "category": "testable",
+        "success_rate": 76.19
+      },
+      "dataset": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 78.79
+      },
+      "rich": {
+        "category": "testable",
+        "success_rate": 75.76
+      },
+      "click": {
+        "category": "testable",
+        "success_rate": 0.0
+      },
+      "dateutil": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "sqlmodel": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "astral": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "pendulum": {
+        "category": "testable",
+        "success_rate": 60.0
+      },
+      "tablib": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "pyjwt": {
+        "category": "testable",
+        "success_rate": 93.33
+      },
+      "tabulate": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "loguru": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 100.0
+      },
+      "pygments": {
+        "category": "testable",
+        "success_rate": 70.59
+      },
+      "tinydb": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "mutagen": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "schedule": {
+        "category": "testable",
+        "success_rate": 0.0
+      },
+      "folium": {
+        "category": "testable",
+        "success_rate": 74.19
+      },
+      "watchdog": {
+        "category": "testable",
+        "success_rate": 84.62
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 90.62
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 18.75
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 65.71
+      },
+      "pypdf": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "imageio": {
+        "category": "testable",
+        "success_rate": 50.0
+      },
+      "lifelines": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      }
+    },
+    "qwen": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 93.33
+      },
+      "stegano": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "dataset": {
+        "category": "testable",
+        "success_rate": 43.75
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 66.67
+      },
+      "rich": {
+        "category": "testable",
+        "success_rate": 27.27
+      },
+      "click": {
+        "category": "build_failure",
+        "success_rate": 0.0
+      },
+      "dateutil": {
+        "category": "build_failure",
+        "success_rate": 0.0
+      },
+      "sqlmodel": {
+        "category": "build_failure",
+        "success_rate": 0.0
+      },
+      "astral": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "pendulum": {
+        "category": "testable",
+        "success_rate": 55.0
+      },
+      "tablib": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "pyjwt": {
+        "category": "testable",
+        "success_rate": 93.33
+      },
+      "tabulate": {
+        "category": "testable",
+        "success_rate": 53.12
+      },
+      "loguru": {
+        "category": "testable",
+        "success_rate": 54.29
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 87.5
+      },
+      "pygments": {
+        "category": "build_failure",
+        "success_rate": 0.0
+      },
+      "tinydb": {
+        "category": "build_failure",
+        "success_rate": 0.0
+      },
+      "mutagen": {
+        "category": "build_failure",
+        "success_rate": 0.0
+      },
+      "schedule": {
+        "category": "testable",
+        "success_rate": 86.36
+      },
+      "folium": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "watchdog": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 90.62
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 59.38
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 74.29
+      },
+      "pypdf": {
+        "category": "testable",
+        "success_rate": 25.93
+      },
+      "imageio": {
+        "category": "testable",
+        "success_rate": 28.57
+      },
+      "lifelines": {
+        "category": "testable",
+        "success_rate": 51.72
+      }
+    },
+    "deepseek": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 20.0
+      },
+      "stegano": {
+        "category": "testable",
+        "success_rate": 85.71
+      },
+      "dataset": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 60.61
+      },
+      "rich": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "click": {
+        "category": "testable",
+        "success_rate": 3.33
+      },
+      "dateutil": {
+        "category": "testable",
+        "success_rate": 61.36
+      },
+      "sqlmodel": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "astral": {
+        "category": "testable",
+        "success_rate": 90.48
+      },
+      "pendulum": {
+        "category": "testable",
+        "success_rate": 20.0
+      },
+      "tablib": {
+        "category": "testable",
+        "success_rate": 80.65
+      },
+      "pyjwt": {
+        "category": "build_failure",
+        "success_rate": 0.0
+      },
+      "tabulate": {
+        "category": "testable",
+        "success_rate": 62.5
+      },
+      "loguru": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "cachetools": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "pygments": {
+        "category": "testable",
+        "success_rate": 35.29
+      },
+      "tinydb": {
+        "category": "testable",
+        "success_rate": 74.29
+      },
+      "mutagen": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "schedule": {
+        "category": "testable",
+        "success_rate": 97.73
+      },
+      "folium": {
+        "category": "testable",
+        "success_rate": 29.03
+      },
+      "watchdog": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 87.5
+      },
+      "requests": {
+        "category": "testable",
+        "success_rate": 15.62
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 57.14
+      },
+      "pypdf": {
+        "category": "testable",
+        "success_rate": 18.52
+      },
+      "imageio": {
+        "category": "testable",
+        "success_rate": 46.43
+      },
+      "lifelines": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      }
+    },
+    "glm": {
+      "xmltodict": {
+        "category": "testable",
+        "success_rate": 96.67
+      },
+      "stegano": {
+        "category": "testable",
+        "success_rate": 95.24
+      },
+      "dataset": {
+        "category": "testable",
+        "success_rate": 81.25
+      },
+      "humanize": {
+        "category": "testable",
+        "success_rate": 90.91
+      },
+      "rich": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "click": {
+        "category": "testable",
+        "success_rate": 26.67
+      },
+      "dateutil": {
+        "category": "dependency_violation",
+        "success_rate": 0.0
+      },
+      "sqlmodel": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "astral": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "pendulum": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "tablib": {
+        "category": "testable",
+        "success_rate": 87.1
+      },
+      "pyjwt": {
+        "category": "testable",
+        "success_rate": 96.67
+      },
+      "tabulate": {
+        "category": "testable",
+        "success_rate": 71.88
+      },
+      "loguru": {
+        "category": "testable",
+        "success_rate": 88.57
+      },
+      "cachetools": {
+        "category": "testable",
+        "success_rate": 96.88
+      },
+      "pygments": {
+        "category": "testable",
+        "success_rate": 88.24
+      },
+      "tinydb": {
+        "category": "testable",
+        "success_rate": 97.14
+      },
+      "mutagen": {
+        "category": "testable",
+        "success_rate": 62.5
+      },
+      "schedule": {
+        "category": "testable",
+        "success_rate": 88.64
+      },
+      "folium": {
+        "category": "testable",
+        "success_rate": 90.32
+      },
+      "watchdog": {
+        "category": "testable",
+        "success_rate": 92.31
+      },
+      "slugify": {
+        "category": "testable",
+        "success_rate": 96.88
+      },
+      "requests": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "petl": {
+        "category": "testable",
+        "success_rate": 71.43
+      },
+      "pypdf": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "imageio": {
+        "category": "interface_failure",
+        "success_rate": 0.0
+      },
+      "lifelines": {
+        "category": "testable",
+        "success_rate": 72.41
+      }
+    }
+  }
+}

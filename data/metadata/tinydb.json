@@ -1,0 +1,10 @@
+{
+  "github_repo": "msiemens/tinydb",
+  "inferred_version": "4.0",
+  "exact_tag": "v4.0.0",
+  "commit_sha": "a01de8fee6a6c6b4174fcb0e54d6a5e656541e55",
+  "zipball_url": "https://api.github.com/repos/msiemens/tinydb/zipball/refs/tags/v4.0.0",
+  "import_name": "tinydb",
+  "test_dependencies": [],
+  "import_name_gen": "docstore"
+}

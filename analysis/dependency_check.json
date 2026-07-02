@@ -1,0 +1,690 @@
+{
+  "agentic": {
+    "gemini": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": false
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": false
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": false
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": false
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    },
+    "gpt": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": false
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": true
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": false
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": true
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    },
+    "qwen": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": false
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": false
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": true
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": false
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    },
+    "glm": {
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": false
+      }
+    }
+  },
+  "zero_shot": {
+    "gemini": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": false
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": false
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": false
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": true
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    },
+    "gpt": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": true
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": true
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": false
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": true
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    },
+    "qwen": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": false
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": true
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": false
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": true
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": false
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    },
+    "deepseek": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": false
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": false
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": true
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": false
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    },
+    "glm": {
+      "xmltodict": {
+        "requires_original_lib": false
+      },
+      "stegano": {
+        "requires_original_lib": false
+      },
+      "dataset": {
+        "requires_original_lib": false
+      },
+      "humanize": {
+        "requires_original_lib": false
+      },
+      "rich": {
+        "requires_original_lib": false
+      },
+      "click": {
+        "requires_original_lib": false
+      },
+      "dateutil": {
+        "requires_original_lib": true
+      },
+      "sqlmodel": {
+        "requires_original_lib": false
+      },
+      "astral": {
+        "requires_original_lib": false
+      },
+      "pendulum": {
+        "requires_original_lib": false
+      },
+      "tablib": {
+        "requires_original_lib": false
+      },
+      "pyjwt": {
+        "requires_original_lib": false
+      },
+      "tabulate": {
+        "requires_original_lib": false
+      },
+      "loguru": {
+        "requires_original_lib": false
+      },
+      "cachetools": {
+        "requires_original_lib": false
+      },
+      "pygments": {
+        "requires_original_lib": false
+      },
+      "tinydb": {
+        "requires_original_lib": false
+      },
+      "mutagen": {
+        "requires_original_lib": false
+      },
+      "schedule": {
+        "requires_original_lib": false
+      },
+      "folium": {
+        "requires_original_lib": false
+      },
+      "watchdog": {
+        "requires_original_lib": false
+      },
+      "slugify": {
+        "requires_original_lib": false
+      },
+      "requests": {
+        "requires_original_lib": false
+      },
+      "petl": {
+        "requires_original_lib": false
+      },
+      "pypdf": {
+        "requires_original_lib": false
+      },
+      "imageio": {
+        "requires_original_lib": false
+      },
+      "lifelines": {
+        "requires_original_lib": false
+      }
+    }
+  }
+}
