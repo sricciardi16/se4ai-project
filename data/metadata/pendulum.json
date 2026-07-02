@@ -1,0 +1,10 @@
+{
+  "github_repo": "sdispater/pendulum",
+  "inferred_version": "2.1",
+  "exact_tag": "2.1.2",
+  "commit_sha": "d9aa101fe76852b75cba14d686ede923641c5b4d",
+  "zipball_url": "https://api.github.com/repos/python-pendulum/pendulum/zipball/refs/tags/2.1.2",
+  "import_name": "pendulum",
+  "test_dependencies": [],
+  "import_name_gen": "temporal_engine"
+}

@@ -1,0 +1,10 @@
+{
+  "github_repo": "Delgan/loguru",
+  "inferred_version": "0.7",
+  "exact_tag": "0.7.3",
+  "commit_sha": "ae3bfd1b85b6b4a3db535f69b975687c79498be4",
+  "zipball_url": "https://api.github.com/repos/Delgan/loguru/zipball/refs/tags/0.7.3",
+  "import_name": "loguru",
+  "test_dependencies": [],
+  "import_name_gen": "flexilog"
+}

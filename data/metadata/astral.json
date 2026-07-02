@@ -1,0 +1,10 @@
+{
+  "github_repo": "sffjunkie/astral",
+  "inferred_version": "2.0",
+  "exact_tag": "2.0.2",
+  "commit_sha": "dc03da349c01a5cec1433f81b5a70543d8094a8a",
+  "zipball_url": "https://api.github.com/repos/sffjunkie/astral/zipball/refs/tags/2.0.2",
+  "import_name": "astral",
+  "test_dependencies": [],
+  "import_name_gen": "celestial_events"
+}

@@ -1,0 +1,10 @@
+{
+  "github_repo": "python-humanize/humanize",
+  "inferred_version": "4.4",
+  "exact_tag": "4.4.0",
+  "commit_sha": "5553ff5308c363aeaa923362b11b7a8e299129f5",
+  "zipball_url": "https://api.github.com/repos/python-humanize/humanize/zipball/refs/tags/4.4.0",
+  "import_name": "humanize",
+  "test_dependencies": [],
+  "import_name_gen": "friendly_formatter"
+}

@@ -1,0 +1,10 @@
+{
+  "github_repo": "tkem/cachetools",
+  "inferred_version": "5.0",
+  "exact_tag": "v5.0.0",
+  "commit_sha": "f8a166b63a3f3adef1cb8d2d81417812bddc0240",
+  "zipball_url": "https://api.github.com/repos/tkem/cachetools/zipball/refs/tags/v5.0.0",
+  "import_name": "cachetools",
+  "test_dependencies": [],
+  "import_name_gen": "policy_cache"
+}

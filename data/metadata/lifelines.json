@@ -1,0 +1,15 @@
+{
+  "github_repo": "CamDavidsonPilon/lifelines",
+  "inferred_version": "0.27",
+  "exact_tag": "v0.27.8",
+  "commit_sha": "962b05a093acc481d7f7b3f5d67cf8c451caf4b4",
+  "zipball_url": "https://api.github.com/repos/CamDavidsonPilon/lifelines/zipball/refs/tags/v0.27.8",
+  "import_name": "lifelines",
+  "test_dependencies": [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy<1.14.0"
+  ],
+  "import_name_gen": "survival_analysis"
+}

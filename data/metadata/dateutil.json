@@ -1,0 +1,10 @@
+{
+  "github_repo": "dateutil/dateutil",
+  "inferred_version": "2.8",
+  "exact_tag": "2.8.2",
+  "commit_sha": "6b035517571e63b6a63a493740c5506ec1e5da44",
+  "zipball_url": "https://api.github.com/repos/dateutil/dateutil/zipball/refs/tags/2.8.2",
+  "import_name": "dateutil",
+  "test_dependencies": [],
+  "import_name_gen": "datetime_kit"
+}

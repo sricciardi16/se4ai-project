@@ -1,0 +1,10 @@
+{
+  "github_repo": "martinblech/xmltodict",
+  "inferred_version": "0.13",
+  "exact_tag": "v0.13.0",
+  "commit_sha": "096db4ad337e4168ef891551814cdd829716192b",
+  "zipball_url": "https://api.github.com/repos/martinblech/xmltodict/zipball/refs/tags/v0.13.0",
+  "import_name": "xmltodict",
+  "test_dependencies": [],
+  "import_name_gen": "nested_markup_converter"
+}

@@ -1,0 +1,33 @@
+configurations:
+  behavior.void:
+    system_instruction: ""
+
+  archive.markdown.experiments:
+    type: "markdown"
+    user_header: "### Silvestro :eyes:"
+    ai_header: "### Chase :seedling:"
+    to_present: false
+
+  archive.markdown.experiments.01_version_inference:
+    directory_path: "./experiments/01_version_inference"
+
+  middleware.version_json_validator:
+    type: "version_json_validator"
+
+profiles:
+  01_version_inference:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.01_version_inference"
+    response_sanitization:
+      - "middleware.json_fence_enforcer"
+    post_response_normalization:
+      - "middleware.json_code_block_tagger"
+      - "middleware.json_escape_repair"
+      - "middleware.version_json_validator"
+    presentation:
+      - "middleware.json_fence_stripper"

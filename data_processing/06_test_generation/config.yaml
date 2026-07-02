@@ -1,0 +1,49 @@
+configurations:
+  behavior.void:
+    system_instruction: ""
+
+  archive.markdown.experiments:
+    type: "markdown"
+    user_header: "### Silvestro :eyes:"
+    ai_header: "### Chase :seedling:"
+    to_present: false
+
+  archive.markdown.experiments.01_generate_tests:
+    directory_path: "./experiments/01_generate_tests"
+
+  archive.markdown.experiments.02_format_imports:
+    directory_path: "./experiments/02_format_imports"
+
+  archive.markdown.experiments.04_test_suite_audit:
+    directory_path: "./experiments/04_test_suite_audit"
+
+
+
+profiles:
+  01_generate_tests:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.01_generate_tests"
+
+
+  02_format_imports:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.02_format_imports"
+
+  04_test_suite_audit:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.04_test_suite_audit"

@@ -1,0 +1,10 @@
+{
+  "github_repo": "petl-developers/petl",
+  "inferred_version": "1.7",
+  "exact_tag": "v1.7.19",
+  "commit_sha": "677bd6143eb5235d74fdbf9744c47853eb2c01a5",
+  "zipball_url": "https://api.github.com/repos/petl-developers/petl/zipball/refs/tags/v1.7.19",
+  "import_name": "petl",
+  "test_dependencies": [],
+  "import_name_gen": "tabular_processor"
+}

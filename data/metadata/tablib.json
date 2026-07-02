@@ -1,0 +1,13 @@
+{
+  "github_repo": "jazzband/tablib",
+  "inferred_version": "3.0",
+  "exact_tag": "v3.0.0",
+  "commit_sha": "1c24dd0b818cf91e47a2d6bdfbd5889c829f0cd5",
+  "zipball_url": "https://api.github.com/repos/jazzband/tablib/zipball/refs/tags/v3.0.0",
+  "import_name": "tablib",
+  "test_dependencies": [
+    "openpyxl",
+    "MarkupPy"
+  ],
+  "import_name_gen": "tabular_manager"
+}

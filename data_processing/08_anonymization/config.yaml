@@ -1,0 +1,45 @@
+configurations:
+  behavior.void:
+    system_instruction: ""
+
+
+  archive.markdown.experiments:
+    type: "markdown"
+    user_header: "### Silvestro :eyes:"
+    ai_header: "### Chase :seedling:"
+    to_present: false
+
+  archive.markdown.experiments.01_anonymized_names:
+    directory_path: "./experiments/01_anonymized_names"
+
+
+  archive.markdown.experiments.02_anonymized_imports:
+    directory_path: "./experiments/02_anonymized_imports"
+
+
+profiles:
+  01_anonymized_names:
+    inference: "inference.creative-balanced"
+    behavior: "behavior.void"
+    provider: "provider.vertex_openai.deepseek-r1-0528"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.01_anonymized_names"
+    response_sanitization:
+      - "middleware.think_tag_remover"
+      - "middleware.json_fence_enforcer"
+    post_response_normalization:
+      - "middleware.json_code_block_tagger"
+      - "middleware.json_escape_repair"
+    presentation:
+      - "middleware.json_fence_stripper"
+
+  02_anonymized_imports:
+    inference: "inference.deterministic-relaxed.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.02_anonymized_imports"

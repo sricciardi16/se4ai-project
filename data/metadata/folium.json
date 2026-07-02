@@ -1,0 +1,12 @@
+{
+  "github_repo": "python-visualization/folium",
+  "inferred_version": "0.14",
+  "exact_tag": "v0.14.0",
+  "commit_sha": "a457a868ff17c109df170afa9c08b6c179b29d10",
+  "zipball_url": "https://api.github.com/repos/python-visualization/folium/zipball/refs/tags/v0.14.0",
+  "import_name": "folium",
+  "test_dependencies": [
+    "pandas"
+  ],
+  "import_name_gen": "web_mapper"
+}

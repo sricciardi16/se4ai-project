@@ -1,0 +1,58 @@
+configurations:
+  behavior.void:
+    system_instruction: ""
+
+  archive.markdown.experiments:
+    type: "markdown"
+    user_header: "### Silvestro :eyes:"
+    ai_header: "### Chase :seedling:"
+    to_present: false
+ 
+  archive.markdown.experiments.01_zero_test_triage:
+    directory_path: "./experiments/01_zero_test_triage"
+ 
+  archive.markdown.experiments.02_zero_test_triage:
+    directory_path: "./experiments/02_zero_test_triage"
+
+  archive.markdown.experiments.03_failing_tests_triage:
+    directory_path: "./experiments/03_failing_tests_triage"
+
+  archive.markdown.experiments.05_semantic_name_audit:
+    directory_path: "./experiments/05_semantic_name_audit"
+
+
+profiles:
+  02_zero_test_triage:
+    inference: "inference.quasi-deterministic.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.02_zero_test_triage"
+
+  03_failing_tests_triage:
+    inference: "inference.deterministic-relaxed.gemini_3_high_think"
+    behavior: "behavior.void"
+    provider: "provider.gemini.vertex.3-1-pro-preview"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.03_failing_tests_triage"
+
+  05_semantic_name_audit:
+    inference: "inference.quasi-deterministic"
+    behavior: "behavior.void"
+    provider: "provider.vertex_openai.deepseek-r1-0528"
+    constraints: "constraints.standard"
+    input_source: "io.input.variable"
+    output_sink: "io.output.variable"
+    archive: "archive.markdown.experiments.05_semantic_name_audit"
+    response_sanitization:
+      - "middleware.think_tag_remover"
+      - "middleware.json_fence_enforcer"
+    post_response_normalization:
+      - "middleware.json_code_block_tagger"
+      - "middleware.json_escape_repair"
+    presentation:
+      - "middleware.json_fence_stripper"

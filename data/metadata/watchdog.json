@@ -1,0 +1,10 @@
+{
+  "github_repo": "gorakhargosh/watchdog",
+  "inferred_version": "3.0",
+  "exact_tag": "v3.0.0",
+  "commit_sha": "da09c060a007fe7fddde27592e4f63ae1e8697bc",
+  "zipball_url": "https://api.github.com/repos/gorakhargosh/watchdog/zipball/refs/tags/v3.0.0",
+  "import_name": "watchdog",
+  "test_dependencies": [],
+  "import_name_gen": "fs_event_monitor"
+}
